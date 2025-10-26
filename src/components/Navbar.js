@@ -34,54 +34,54 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <Link
             href="/"
-            className="flex items-center justify-center rounded-4xl relative overflow-hidden mr-1"
+            className="flex items-center justify-center relative overflow-hidden mr-1"
           >
             <Image
               src={logo}
               property={"true"}
               alt="logo of website"
               height={40}
-              className="object-contain mr-2.5"
+              className="object-contain mr-2.5 rounded-full"
             />
-            <span className="text-xl font-bold text-white cursor-pointer hover:text-indigo-600 transition-colors">
+            <span className="text-xl font-bold text-orange-600 cursor-pointer  hover:text-orange-700 transition-colors">
               StepOf
             </span>
           </Link>
           <div className="flex space-x-4 items-center justify-center">
             <Link href="#solution">
-              <span className="text-white hover:text-indigo-600 transition-colors cursor-pointer">
+              <span className="text-white hover:text-orange-700 transition-colors cursor-pointer">
                 Solution
               </span>
             </Link>
             <Link href="#vision">
-              <span className="text-white hover:text-indigo-600 transition-colors cursor-pointer">
+              <span className="text-white hover:text-orange-700 transition-colors cursor-pointer">
                 Vision
               </span>
             </Link>
             <Link href="#programs">
-              <span className="text-white hover:text-indigo-600 transition-colors cursor-pointer">
+              <span className="text-white hover:text-orange-700 transition-colors cursor-pointer">
                 Programs
               </span>
             </Link>
             <Link href="#blogs">
-              <span className="text-white hover:text-indigo-600 transition-colors cursor-pointer">
+              <span className="text-white hover:text-orange-700 transition-colors cursor-pointer">
                 Blogs
               </span>
             </Link>
             <Link href="#More">
-              <span className="text-white hover:text-indigo-600 transition-colors cursor-pointer">
+              <span className="text-white hover:text-orange-700 transition-colors cursor-pointer">
                 More
               </span>
             </Link>
             <Link href="/login">
-              <div className="flex items-center space-x-1 text-white hover:text-indigo-600 transition-colors cursor-pointer">
+              <div className="flex items-center space-x-1 text-white hover:text-orange-700 transition-colors cursor-pointer">
                 <FaUserCircle className="w-6 h-6" />
                 <span className="hidden sm:inline">Login</span>
               </div>
             </Link>
 
             <Link href="#contact">
-              <div className="px-4 py-2 text-sm font-semibold text-white border-2 border-amber-50 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 transform hover:scale-105 whitespace-nowrap">
+              <div className="px-4 py-2 text-sm font-semibold text-white border-2 border-amber-50 rounded-lg shadow-md hover:bg-orange-700 transition duration-300 transform hover:scale-105 whitespace-nowrap">
                 Get in Touch
               </div>
             </Link>
